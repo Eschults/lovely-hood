@@ -1,115 +1,281 @@
-/* General classes for page */
+html {
+  height: 100%;
+}
+
+body,
+.row {
+	margin: auto;
+	font-family: 'Open Sans';
+}
 
 body {
-  background-image: url("../images/grid.jpg");
-  font-family: 'Open Sans';
+  position: relative;
+  margin: 0;
+  padding-bottom: 4rem;
+  min-height: 100%;
+}
+
+.navbar-blue {
+	background-color: #25AAE1;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+	border-bottom: none ;
+}
+
+.navbar-blue .navbar-brand {
+	padding: 0;
+	font-family: Pacifico;
+	font-size: 28px;
+	margin-top: -3px;
+	margin-left: -5px !important;
+	color: #FFFFFF;
+}
+
+.container-fluid > .navbar-header {
+	margin-left: 0;
 }
 
 
-/* Footer */
-
-#footer {
-  background-color: #222;
-  color: #aaaaaa;
-  padding-top: 3em;
-  padding-bottom: 3em;
+.wrapper button,
+.wrapper button:active,
+.wrapper button:focus,
+.navbar-blue button,
+.navbar-blue button:active,
+.navbar-blue button:focus {
+	margin-top: 7px !important;
+	border-radius: 1px;
+	border-color: #FFFFFF;
+	color: #25AAE1;
+	font-weight: bold;
 }
 
-#footer a {
-  color: #cccccc;
+.wrapper button,
+.navbar-blue button {
+	background-color: #FFFFFF;
 }
 
-#footer a:hover {
-  color: white;
+.wrapper button:hover,
+.navbar-blue button:hover {
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	background-color: #25AAE1;
 }
 
-.social a {
-  font-size: 24px;
+#brand-logo {
+	height: 48px;
+	margin-top: -12px;
 }
 
-.social a:hover {
-  text-decoration: none;
+.navbar-blue .navbar-brand,
+.navbar-blue .navbar-nav > li > a {
+  color: #FFFFFF;
+  line-height: 50px;
 }
 
-/* Lead with big image */
-
-.wrapper {
-  background-image: url('../images/background/background.jpg');
-  height: 650px;
-  background-size: cover;
-  padding-top: 150px;
-  text-align: center;
-  color: white;
-}
-
-.lead h1 {
-  font-size: 72px;
-  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
-  font-weight: normal;
-}
-
-.lead h2 {
-  background: rgba(0, 0, 0, .4);
-  display: inline-block;
-  padding: 0.2em;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  margin-bottom: 2em;
-}
-
-/* Vertical spacer to help content breathe */
-
-.vertical-spacer {
-  height: 8em;
-}
-
-/* Some padding for feature images */
-
-.feature img {
-  margin-bottom: 2em;
-}
-
-.feature {
-  color: #444444;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-
-/* How to override the default Bootstrap colors */
-
-.btn-primary {
-  background-color: #1abc9c;
-  border-color: #1abc9c;
-}
-
-.btn-primary:hover {
-  background-color: #16a085;
-  border-color: #16a085;
-}
-
-/* How to override the default Bootstrap navbar */
-
-.navbar-transparent {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.navbar-transparent .navbar-brand,
-.navbar-transparent .navbar-nav > li > a {
-  color: #eeeeee;
-}
-
-.navbar-transparent .navbar-brand:hover,
-.navbar-transparent .navbar-brand:active,
-.navbar-transparent .navbar-brand:focus,
-.navbar-transparent .navbar-nav > li > a:hover,
-.navbar-transparent .navbar-nav > li > a:active,
-.navbar-transparent .navbar-nav > li > a:focus,
-.navbar-transparent .navbar-nav > .open > a,
-.navbar-transparent .navbar-nav > .open > a:hover,
-.navbar-transparent .navbar-nav > .open > a:focus {
+.navbar-blue .navbar-nav > li > a:hover,
+.navbar-blue .navbar-nav > li > a:active,
+.navbar-blue .navbar-nav > li > a:focus,
+.navbar-blue .navbar-nav > .open > a,
+.navbar-blue .navbar-nav > .open > a:hover,
+.navbar-blue .navbar-nav > .open > a:focus {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.navbar-blue .navbar-brand:hover,
+.navbar-blue .navbar-brand:active,
+.navbar-blue .navbar-brand:focus {
+  color: yellow;
+}
 
+.icons-reverse {
+	height: 24px; 
+	margin: -1px 3px -1px 0;
+}
+
+.vertical-spacer {
+	height: 50px;
+}
+
+.vertical-spacer-lg {
+	height: 50%;
+}
+
+.wrapper {
+  background-image: url('../images/background-tighter.png');
+  height: 600px;
+  background-size: cover;
+  padding-top: 5%;
+  text-align: center;
+  color: white;
+
+}
+
+.lead {
+	background: rgba(0, 0, 0, .4);
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.lead h1 {
+	font-family: Pacifico;
+	color: ;
+	font-size: 92px;
+	text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+}
+
+.lead h2 {
+  display: inline-block;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: ;
+  font-weight: bold;
+  font-family: 'Droid serif';
+}
+
+.white {
+	background-color: white;
+	color: #25AAE1;
+}
+
+.blue {
+	background-color: #25AAE1;
+	color: white;
+}
+
+.text-left {
+	text-align: left;
+}
+
+#homepage-logo {
+	opacity: 1;
+	height: 300px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.social {
+	font-size: 24px;
+	color: white;
+}
+
+.box {
+	margin: 20% 25%;
+}
+
+#explain,
+.footer {
+	font-size: 20px;
+}
+
+#dispo {
+
+}
+
+.footer {
+	background-color: #25AAE1;
+	padding: 15px 0 5px 0;
+	color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.explain {
+	color: #25AAE1;
+	background-color: white;
+	padding: 30px 15px;
+}
+
+.box-shadow {
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.padding-btn {
+	padding: 8px 0 15px 0;
+} 
+
+#description {
+	display: block;
+	float: bottom;
+}
+
+.wrapper a,
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.wrapper a:hover,
+.footer a:hover {
+	color: yellow;
+}
+
+@media screen and (max-width: 992px) {
+  .lead h1 {
+    font-size: 72px;
+  }
+  .lead h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lead h1 {
+    font-size: 52px;
+  }
+  .lead h2 {
+    font-size: 14px;
+  }
+  .small {
+	font-size: 10px !important;
+  }
+  .smaller {
+	font-size: 8px !important;
+  }
+  .padding-none-mobile {
+  	padding: none !important;
+  }
+
+}
+
+
+
+@media screen and (max-height: 600px) { 
+  .lead h2 {
+    font-size: 14px;
+  }
+  .disappear {
+  	display: none;
+  }
+  .small {
+	font-size: 10px;
+  }
+  .disappear-mobile {
+  	display: none;
+  }
+  .appear-mobile {
+  	display: table-footer-group !important;
+  }
+}
+
+.appear-mobile {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #25AAE1;
+  text-align: center;
+  color: white;
+  display: none;
+}
+
+@media screen and (min-height: 600px) { 
+}
+
+.small {
+	font-size: 14px;
+}
+
+.text-content {
+	color: #25AAE1;
+}
