@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lovely hood - Rentabilisez vos objets dormants !
+title: Lovely hood - Rentabilisez vos objets dormants
 ---
 
 <div class="wrapper">
@@ -20,11 +20,14 @@ title: Lovely hood - Rentabilisez vos objets dormants !
     </button>
     
   </div>
+       
+
   
-  
-      
+
   <div class="modal fade box-shadow" id="explain">
-    
+    <div class="row white"> 
+      <a href="index.html" style="padding: 25px 15px 10px 0;" data-dismiss="modal" class="modal-close">x</a>
+    </div>
     <div class="row">
       <div class="col-md-4 col-sm-12 text-center explain">
         <img style="height: 100px" src="images/objets.png" alt="perceuse robot mixeur tente alveole hexagone bleu">
@@ -45,34 +48,24 @@ title: Lovely hood - Rentabilisez vos objets dormants !
         3. Je suis contacté par mes voisins
       </div>
     </div>
-    <div class="row blue padding-btn">
-      <button class="btn btn-default" data-toggle="modal" data-target="#savoir-plus">
-        En savoir plus
-      </button>
-      <button class="btn btn-default" data-toggle="modal" data-target="#register-form">
-        Je m'inscris
-      </button>
-      <button class="btn btn-default" data-dismiss="modal">
-        Fermer
-      </button>
+    <div class="row blue logo">
+        <a class="logo" href="index.html">
+          <img src="images/Logo-white.png" style="height: 40px;" id="brand-logo" alt="logo lovely hood abeille">
+          &nbsp;lovely hood
+        </a>
     </div>
-  </div><!-- modal fade #explain -->
-  
-  <div class="modal fade box-shadow" id="savoir-plus">
-    <div class="vertical-spacer-lg disappear"></div>
-
     <div class="row white" id="description">
       <div class="col-md-4  col-sm-12 text-center explain">
         <img style="height: 100px" src="images/securise.png" alt="verification securise proximite alveole hexagone bleu">
         <br>
         <br>
-        Lovely hood est une plateforme privée et entièrement sécurisée, qui vous met en relation avec les utilisateurs qui habitent <b>à moins de 10 minutes à pied de chez vous.</b>
+        Lovely hood est une plateforme privée et entièrement sécurisée, qui vous met en relation avec les utilisateurs habitant <b>à moins de 10 minutes à pied de chez vous.</b>
       </div>
       <div class="col-md-4  col-sm-12 text-center explain">
         <img style="height: 100px" src="images/consommation-collaborative.png" alt="consommation collaborative perceuse people reseau alveole hexagone bleu">
         <br>
         <br>
-        Basée sur le principe de la <b>consommation collaborative</b>, elle vous permet de rentabiliser vos objets inutilisés en les louant à l'heure, à la journée ou encore à la semaine.
+        Fondée sur le principe de la <b>consommation collaborative</b>, elle vous permet de louer à l'heure, à la journée ou encore à la semaine les objets que vous n'utilisez qu'occasionnellement.
       </div>
       <div class="col-md-4  col-sm-12 text-center explain">
         <img style="height: 100px" src="images/paiement-services.png" alt="argent discuter baby-sitting services  alveole hexagone bleu">
@@ -83,10 +76,45 @@ title: Lovely hood - Rentabilisez vos objets dormants !
       </div>
     </div>
     <div class="row blue padding-btn">
-      <button class="btn btn-default" data-dismiss="modal">
-        Fermer
+      <button class="btn btn-default" data-toggle="modal" data-target="#register-form">
+        Je m'inscris
       </button>
     </div>
-  </div>
-  
+   </div><!-- modal fade #explain -->
+
+   <div class="modal fade box-shadow" id="register-form">
+     <div class="vertical-spacer disappear"></div>
+     <div class="vertical-spacer disappear"></div>
+     <div class="vertical-spacer disappear"></div>
+     <div class="vertical-spacer disappear"></div>
+     <div class="modal-dialog slim-fit">
+       <div class="modal-content">
+         <div class="modal-body white">
+           <div class="row white">
+             <a href="index.html" data-dismiss="modal" class="modal-close">x</a>
+          </div>
+          <form role="form">
+             <div class="form-group">
+               <a href="#" class="btn facebook-btn">
+                 <i class="fa fa-facebook"></i>&nbsp;Inscription avec facebook
+               </a>
+             </div>
+             <div class="form-group">
+               <input type="text" class="form-control" id="name" placeholder="Nom complet">
+             </div>
+             <div class="form-group">
+               <input type="email" class="form-control" id="email" placeholder="Email">
+             </div>
+           </form>
+           <p class="text-small-left">En créant un compte, vous acceptez les <a href="#">Conditions générales</a>, la <a href="#">Politique de confidentialité</a> et la <a href="#">Politique de remboursement</a> de Lovely hood.</p>
+
+         </div>
+         <div class="modal-footer blue padding-btn text-center">
+             
+           <button class="btn btn-primary">Créer un compte</button>
+         </div>
+       </div>
+     </div>
+   </div><!-- modal fade #register-form -->
+   
 </div>
