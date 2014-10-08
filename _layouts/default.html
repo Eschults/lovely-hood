@@ -74,14 +74,47 @@
             </li>
             
             <li class="text-center">
-              <button type="button" class="btn btn-default disabled" data-target="#connect-form">
+              <button type="button" class="btn btn-default" data-target="#connect-form">
               Se connecter
               </button>&nbsp;
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
+
     </nav>
+    <div class="modal fade box-shadow" id="connect-form">
+      <div class="vertical-spacer disappear"></div>
+      <div class="vertical-spacer disappear"></div>
+      <div class="vertical-spacer disappear"></div>
+      <div class="vertical-spacer disappear"></div>
+      <div class="modal-dialog slim-fit">
+        <div class="modal-content">
+          <div class="modal-body white">
+            <div class="row white">
+              <a href="index.html" data-dismiss="modal" class="modal-close">x</a>
+           </div>
+           <form role="form">
+              <div class="form-group">
+                <a href="#" class="btn facebook-btn">
+                  <i class="fa fa-facebook"></i>&nbsp;Connexion avec facebook
+                </a>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="password" placeholder="Mot de passe">
+              </div>
+            </form>
+            <p class="text-small-left"><a href="#">Mot de passe oublié ?</a></p>
+          </div>
+          <div class="modal-footer blue padding-btn text-center">
+            <button class="btn btn-primary">Connexion</button>
+          </div>
+        </div>
+      </div><!-- modal-dialog slim-fit -->
+    </div><!-- modal fade #register-form -->
     <div class="vertical-spacer"></div>
 
 

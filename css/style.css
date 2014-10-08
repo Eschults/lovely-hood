@@ -15,6 +15,17 @@ body {
   min-height: 100%;
 }
 
+a {
+  color: red;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: red;
+  text-decoration: underline;
+}
+
 .navbar-blue {
 	background-color: #25AAE1;
 	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
@@ -45,6 +56,9 @@ body {
 	font-weight: bold;
 }
 
+.container button,
+.container button:active,
+.container button:focus,
 .wrapper button,
 .wrapper button:active,
 .wrapper button:focus {
@@ -55,13 +69,15 @@ body {
 	font-weight: bold;
 }
 
-
 .wrapper button,
+.container button,
 .navbar-blue button {
 	background-color: #FFFFFF;
+  border-color: #25AAE1;
 }
 
 .wrapper button:hover,
+.container button:hover,
 .navbar-blue button:hover {
 	border-color: #FFFFFF;
 	color: #FFFFFF;
@@ -87,6 +103,7 @@ body {
 .navbar-blue .navbar-nav > .open > a:focus {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
 }
 
 .navbar-blue .navbar-brand:hover,
@@ -238,6 +255,7 @@ body {
 .lead a:hover,
 .footer a:hover {
 	color: yellow;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 992px) {
@@ -347,6 +365,7 @@ body {
   background-color: #3b5998;
   color: white;
   width: 100%;
+  border-radius: 2px;
 }
 
 .facebook-btn:hover {
@@ -354,3 +373,56 @@ body {
   font-weight: bold;
 }
 
+.form-control {
+  border-radius: 2px;
+}
+
+.sidenav {
+  list-style: none;
+  line-height: 2.3em;
+  font-size: 16px;
+  padding-top: 15px; 
+}
+
+.sidenav a {
+  color: #25AAE1;  
+}
+
+.sidenav a:hover {
+  text-decoration: none;
+  font-weight: 900;  
+}
+
+.padding-top-15 {
+  padding-top: 15px;
+}
+
+.input-group-addon {
+  border-radius: 2px;
+}
+
+#view-profile-button {
+  width: 100%;
+}
+
+.panel-title {
+  color: #25AAE1;
+  font-size: 16px;
+}
+
+.panel-title a:hover {
+  color: #25AAE1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.panel-heading,
+.panel-body {
+  font-size: 14px;
+  border-radius: 1px;
+}
+
+.annotations {
+  padding-top: 5px;
+  font-size: 13px;
+}
