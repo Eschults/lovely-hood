@@ -2,217 +2,216 @@
 layout: default
 title: Profil - Lovely hood
 ---
-<div class="text-content">
-  <div class="container">
-  
+
+<div class="grey" id="background">
+  <div class="container text-content">
     <div class="row">
-      <div class="col-xs-3" id="menu-profile-edit">
-      	<ul class="sidenav">
-      	  <li><a href="#"><b>Mes informations</b></a></li>
-          <li><a href="#">Photo de profil</a></li>
-      	  <li><a href="#">Confiance et vérification</a></li>
-      	  <li><a href="#">Commentaires</a></li>
-      	  <li><a href="#">Recommandations</a></li>
-      		<br>
-          <a href="profile.html">
-		      	<button class="btn btn-default" id="view-profile-button">
-		      	 	Voir mon profil
-		      	</button>
-		      </a>
-        </ul> 
+      <div class="col-sm-3">
+        <div class="white margin-top-15" id="menu-profile-edit">
+          <ul class="sidenav">
+        	  <li><a href="edit-profile-info.html"><b>Mes informations</b></a></li>
+            <li><a href="edit-profile-pic.html">Photo de profil</a></li>
+        	  <li><a href="edit-profile-trust.html">Confiance et vérification</a></li>
+        	  <li><a href="view-profile-comments.html">Commentaires</a></li>
+        	  <li><a href="edit-profile-recommendations.html">Recommandations</a></li>
+        		<br>
+            <a href="profile.html">
+    	      	<button class="btn btn-lovely" id="view-profile-button">
+    	      	 	Voir mon profil
+    	      	</button>
+    	      </a>
+          </ul>
+        </div>
       </div>
-      <div class="col-xs-9 padding-top-15">
-      	<div class="panel-group" id="accordion">
-      	  <div class="panel panel-default">
-      	    <div class="panel-heading">
-      	      <h4 class="panel-title">
-      	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-      	          Obligatoire
-      	        </a>
-      	      </h4>
-      	    </div>
-      	    <div id="collapseOne" class="panel-collapse collapse in">
-      	      <div class="panel-body">
-      	        <form class="form-horizontal" role="form">
-      	          <div class="form-group">
-      	            <label for="inputPrenom" class="col-sm-3 control-label">Prénom</label>
-      	            <div class="col-sm-9">
-      	              <input type="text" class="form-control" id="inputPrenom" placeholder="">
-      	            </div>
-      	          </div>
-      	          <div class="form-group">
-      	            <label for="inputName" class="col-sm-3 control-label">Nom</label>
-      	            <div class="col-sm-9">
-      	              <input type="text" class="form-control" id="inputName" placeholder="">
-      	              <p class="annotations">Cette information n'est partagée qu'une fois que vous avec confirmé une réservation avec un autre membre de Lovely hood.</p>
-      	            </div>
-      	          </div>
-      	          <div class="form-group form-inline">
-      	            <label for="inputSex" class="col-sm-3 control-label">Sexe</label>
-      	            <div class="col-sm-9">
-      	              <select type="dropdown" class="form-control" id="inputName">
-      	              	<option value>Sexe</option>
-      	              	<option value="Male">Homme</option>
-      	              	<option value="Female">Femme</option>
-      	              </select>
-      	            </div>
-      	          </div>
-      	          <div class="form-group form-inline">
-      	            <label for="inputBirthDate" class="col-sm-3 control-label">Date de naissance</label>
-      	            <div class="col-sm-9 form-inline">
-      	              <select type="dropdown" class="form-control" id="inputBirthDay">
-      	              	<option value>Jour</option>
-      	              	<option value="1">1</option>
-      	              	<option value="2">2</option>
-      	              	<option value="3">3</option>
-      	              	<option value="4">4</option>
-      	              	<option value="5">5</option>
-      	              	<option value="6">6</option>
-      	              	<option value="7">7</option>
-      	              	<option value="8">8</option>
-      	              	<option value="9">9</option>
-      	              	<option value="10">10</option>
-      	              	<option value="11">11</option>
-      	              	<option value="12">12</option>
-      	              	<option value="13">13</option>
-      	              	<option value="14">14</option>
-      	              	<option value="15">15</option>
-      	              	<option value="16">16</option>
-      	              	<option value="17">17</option>
-      	              	<option value="18">18</option>
-      	              	<option value="19">19</option>
-      	              	<option value="20">20</option>
-      	              	<option value="21">21</option>
-      	              	<option value="22">22</option>
-      	              	<option value="23">23</option>
-      	              	<option value="24">24</option>
-      	              	<option value="25">25</option>
-      	              	<option value="26">26</option>
-      	              	<option value="27">27</option>
-      	              	<option value="28">28</option>
-      	              	<option value="29">29</option>
-      	              	<option value="30">30</option>
-      	              	<option value="31">31</option>
-      	              </select>
-      	            
-      	              <select type="dropdown" class="form-control" id="inputBirthMonth">
-      	              	<option value>Mois</option>
-      	              	<option value="January">Janvier</option>
-      	              	<option value="February">Février</option>
-      	              	<option value="March">Mars</option>
-      	              	<option value="April">Avril</option>
-      	              	<option value="May">Mai</option>
-      	              	<option value="June">Juin</option>
-      	              	<option value="July">Juillet</option>
-      	              	<option value="August">Août</option>
-      	              	<option value="September">Septembre</option>
-      	              	<option value="October">Octobre</option>
-      	              	<option value="November">Novembre</option>
-      	              	<option value="December">Décembre</option>
-      	              </select>
-      	            
-      	              <select type="dropdown" class="form-control" id="inputBirthYear">
-      	              	<option value>Année</option>
-      	              	<option value="1980">1980</option>
-      	              	<option value="1981">1981</option>
-      	              	<option value="1982">1982</option>
-      	              	<option value="1983">1983</option>
-      	              	<option value="1984">1984</option>
-      	              	<option value="1985">1985</option>
-      	              	<option value="1986">1986</option>
-      	              	<option value="1987">1987</option>
-      	              	<option value="1988">1988</option>
-      	              	<option value="1989">1989</option>      	              	
-      	              </select>
-	   	              <p class="annotations">Nous utilisons cette donnée à des fins d'analyse et ne la partageons jamais avec d'autres utilisateurs.</p>
-      	            </div>
-      	          </div>
-      	          <div class="form-group">
-      	            <label for="inputEmail" class="col-sm-3 control-label">Adresse e-mail</label>
-      	            <div class="col-sm-9">
-      	              <input type="email" class="form-control" id="inputEmail" placeholder="">
-      	              <p class="annotations">Cette information n'est partagée qu'une fois que vous avec confirmé une réservation avec un autre membre de Lovely hood.</p>
-      	            </div>
-      	          </div>
-      	          <div class="form-group">
-      	            <label for="inputAddress" class="col-sm-3 control-label">Adresse postale</label>
-      	            <div class="col-sm-9">
-      	            	<div class="input-group">
-	      	              <div class="input-group-addon"><img src="images/map-marker.png" style="height: 18px;"></div>
-  	    	              <input type="text" class="form-control" id="inputAddress" placeholder="Ex : 100 rue balard 75015">
-  	    	            </div>
-      	              <p class="annotations">Cette information n'est partagée qu'une fois que vous avec confirmé une réservation avec un autre membre de Lovely hood.</p>
-      	            </div>
-      	          </div>
-      	          <div class="form-group">
-      	            <label for="inputPhone" class="col-sm-3 control-label">Numéro de téléphone</label>
-      	            <div class="col-sm-9">
-      	              <div class="input-group">
-      	                <div class="input-group-addon">+33 6</div>
-      	            	  <input type="tel" step="8" class="form-control" id="inputPhoneNumber">
-      	            	  <div class="input-group-addon"><i class="fa fa-check"></i>&nbsp;Vérifié</div>
-      	            	</div>
-      	            	<p class="annotations">Cette information n'est partagée qu'une fois que vous avec confirmé une réservation avec un autre membre de Lovely hood.</p>
-      	            </div>
-      	          </div>
-      	          <div class="form-group">
-      	            <label for="inputDescription" class="col-sm-3 control-label">Votre description</label>
-      	            <div class="col-sm-9">
-      	              <textarea class="form-control" rows="5"></textarea>
-      	              <p class="annotations">Aidez les utilisateurs de votre communauté à mieux vous connaitre.</p>
-      	              <p class="annotations">Pour cela, présentez-vous brièvement en résumant votre parcours et en mentionnant vos activités personnelles et/ou professionnelles, et racontez-nous comment vous avez été amené(e) à vivre dans votre quartier.</p>
-      	            </div>
-      	          </div>
-      	        </form>
-      	      </div>
-      	    </div>
-      	  </div>
-      	  <div class="panel panel-default">
-      	    <div class="panel-heading">
-      	      <h4 class="panel-title">
-      	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-      	          Facultatif
-      	        </a>
-      	      </h4>
-      	    </div>
-      	    <div id="collapseTwo" class="panel-collapse collapse">
-      	      <div class="panel-body">
-      	        <form class="form-horizontal" role="form">
-                  <div class="form-group">
-                    <label for="inputWork" class="col-sm-3 control-label">Emploi</label>
-                    <div class="col-sm-9">
-                      <input type="text" class="form-control" id="inputSchool" placeholder="">
+      <div class="col-sm-9">
+        <div class="padding-top-15">
+        	<div class="panel-group" id="accordion">
+        	  <div class="panel panel-default box-shadow">
+        	    <div class="panel-heading">
+        	      <h4 class="panel-title">
+        	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+        	          Obligatoire
+        	        </a>
+        	      </h4>
+        	    </div>
+        	    <div id="collapseOne" class="panel-collapse collapse in">
+        	      <div class="panel-body">
+        	        <form class="form-horizontal" role="form">
+        	          <div class="form-group">
+        	            <label for="inputPrenom" class="col-sm-3 control-label">Prénom</label>
+        	            <div class="col-sm-9">
+        	              <input type="text" class="form-control" id="inputPrenom" placeholder="">
+        	            </div>
+        	          </div>
+        	          <div class="form-group">
+        	            <label for="inputName" class="col-sm-3 control-label">Nom</label>
+        	            <div class="col-sm-9">
+        	              <input type="text" class="form-control" id="inputName" placeholder="">
+        	              <p class="annotations">Cette information n'est partagée qu'une fois que vous avec confirmé une réservation avec un autre membre de Lovely hood.</p>
+        	            </div>
+        	          </div>
+        	          <div class="form-group form-inline">
+        	            <label for="inputSex" class="col-sm-3 control-label">Sexe</label>
+        	            <div class="col-sm-9">
+        	              <select type="dropdown" class="form-control" id="inputName">
+        	              	<option value>Sexe</option>
+        	              	<option value="Male">Homme</option>
+        	              	<option value="Female">Femme</option>
+        	              </select>
+        	            </div>
+        	          </div>
+        	          <div class="form-group form-inline">
+        	            <label for="inputBirthDate" class="col-sm-3 control-label">Date de naissance</label>
+        	            <div class="col-sm-9 form-inline">
+        	              <select type="dropdown" class="form-control" id="inputBirthDay">
+        	              	<option value>Jour</option>
+        	              	<option value="1">1</option>
+        	              	<option value="2">2</option>
+        	              	<option value="3">3</option>
+        	              	<option value="4">4</option>
+        	              	<option value="5">5</option>
+        	              	<option value="6">6</option>
+        	              	<option value="7">7</option>
+        	              	<option value="8">8</option>
+        	              	<option value="9">9</option>
+        	              	<option value="10">10</option>
+        	              	<option value="11">11</option>
+        	              	<option value="12">12</option>
+        	              	<option value="13">13</option>
+        	              	<option value="14">14</option>
+        	              	<option value="15">15</option>
+        	              	<option value="16">16</option>
+        	              	<option value="17">17</option>
+        	              	<option value="18">18</option>
+        	              	<option value="19">19</option>
+        	              	<option value="20">20</option>
+        	              	<option value="21">21</option>
+        	              	<option value="22">22</option>
+        	              	<option value="23">23</option>
+        	              	<option value="24">24</option>
+        	              	<option value="25">25</option>
+        	              	<option value="26">26</option>
+        	              	<option value="27">27</option>
+        	              	<option value="28">28</option>
+        	              	<option value="29">29</option>
+        	              	<option value="30">30</option>
+        	              	<option value="31">31</option>
+        	              </select>
+
+        	              <select type="dropdown" class="form-control" id="inputBirthMonth">
+        	              	<option value>Mois</option>
+        	              	<option value="January">Janvier</option>
+        	              	<option value="February">Février</option>
+        	              	<option value="March">Mars</option>
+        	              	<option value="April">Avril</option>
+        	              	<option value="May">Mai</option>
+        	              	<option value="June">Juin</option>
+        	              	<option value="July">Juillet</option>
+        	              	<option value="August">Août</option>
+        	              	<option value="September">Septembre</option>
+        	              	<option value="October">Octobre</option>
+        	              	<option value="November">Novembre</option>
+        	              	<option value="December">Décembre</option>
+        	              </select>
+
+        	              <select type="dropdown" class="form-control" id="inputBirthYear">
+        	              	<option value>Année</option>
+        	              	<option value="1980">1980</option>
+        	              	<option value="1981">1981</option>
+        	              	<option value="1982">1982</option>
+        	              	<option value="1983">1983</option>
+        	              	<option value="1984">1984</option>
+        	              	<option value="1985">1985</option>
+        	              	<option value="1986">1986</option>
+        	              	<option value="1987">1987</option>
+        	              	<option value="1988">1988</option>
+        	              	<option value="1989">1989</option>
+        	              </select>
+       	              <p class="annotations">Nous utilisons cette donnée à des fins d'analyse et ne la partageons jamais avec d'autres utilisateurs.</p>
+        	            </div>
+        	          </div>
+        	          <div class="form-group">
+        	            <label for="inputEmail" class="col-sm-3 control-label">Adresse e-mail</label>
+        	            <div class="col-sm-9">
+           	            <input type="email" class="form-control" id="inputEmail" placeholder="">
+                        <p class="annotations">Cette information n'est partagée qu'une fois que vous avec confirmé une réservation avec un autre membre de Lovely hood.</p>
+        	            </div>
+        	          </div>
+        	          <div class="form-group">
+        	            <label for="inputAddress" class="col-sm-3 control-label">Adresse postale</label>
+        	            <div class="col-sm-9">
+        	            	<div class="input-group">
+          	              <div class="input-group-addon"><img src="images/map-marker.png" style="height: 18px;"></div>
+    	    	              <input type="text" class="form-control" id="inputAddress" placeholder="Ex : 100 rue balard 75015">
+    	    	            </div>
+        	              <p class="annotations">Cette information n'est partagée qu'une fois que vous avec confirmé une réservation avec un autre membre de Lovely hood.</p>
+        	            </div>
+        	          </div>
+        	          <div class="form-group">
+        	            <label for="inputPhone" class="col-sm-3 control-label">Numéro de téléphone</label>
+        	            <div class="col-sm-9">
+        	              <div class="input-group">
+        	                <div class="input-group-addon">+33 6</div>
+        	            	  <input type="tel" step="8" class="form-control" id="inputPhoneNumber">
+        	            	  <div class="input-group-addon"><i class="fa fa-check"></i>&nbsp;Vérifié</div>
+        	            	</div>
+        	            	<p class="annotations">Cette information n'est partagée qu'une fois que vous avec confirmé une réservation avec un autre membre de Lovely hood.</p>
+        	            </div>
+        	          </div>
+        	          <div class="form-group">
+        	            <label for="inputDescription" class="col-sm-3 control-label">Votre description</label>
+        	            <div class="col-sm-9">
+        	              <textarea class="form-control" rows="5"></textarea>
+        	              <p class="annotations">Aidez les utilisateurs de votre communauté à mieux vous connaitre.</p>
+        	              <p class="annotations">Pour cela, présentez-vous brièvement en résumant votre parcours et en mentionnant vos activités personnelles et/ou professionnelles, et racontez-nous comment vous avez été amené(e) à vivre dans votre quartier.</p>
+        	            </div>
+        	          </div>
+        	        </form>
+        	      </div>
+        	    </div>
+        	  </div>
+        	  <div class="panel panel-default box-shadow">
+        	    <div class="panel-heading">
+        	      <h4 class="panel-title">
+        	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        	          Facultatif
+        	        </a>
+        	      </h4>
+        	    </div>
+        	    <div id="collapseTwo" class="panel-collapse collapse">
+        	      <div class="panel-body">
+        	        <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <label for="inputWork" class="col-sm-3 control-label">Emploi</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputSchool" placeholder="">
+                      </div>
                     </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputSchool" class="col-sm-3 control-label">Scolarité</label>
-                    <div class="col-sm-9">
-                      <input type="text" class="form-control" id="inputSchool" placeholder="">
+                    <div class="form-group">
+                      <label for="inputSchool" class="col-sm-3 control-label">Scolarité</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputSchool" placeholder="">
+                      </div>
                     </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputRelationship" class="col-sm-3 control-label">Situation amoureuse</label>
-                    <div class="col-sm-9">
-                      <input type="text" class="form-control" id="inputSchool" placeholder="">
+                    <div class="form-group">
+                      <label for="inputRelationship" class="col-sm-3 control-label">Situation amoureuse</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputSchool" placeholder="">
+                      </div>
                     </div>
-                  </div>
-                </form>
-      	      </div>
-      	    </div>
-      	  </div>
-          <br>
-          <a href="profile.html">
-            <button class="btn btn-default" id="save-profile-button">
-              Enregistrer
-            </button>
-          </a>
-      	</div>
+                  </form>
+        	      </div>
+        	    </div>
+        	  </div>
+            <br>
+            <a href="profile.html">
+              <button class="btn btn-lovely" id="save-profile-button">
+                Enregistrer
+              </button>
+            </a>
+        	</div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-  
-<div class="vertical-spacer"></div>
-<div class="vertical-spacer"></div>
-<div class="vertical-spacer"></div>
-<div class="vertical-spacer"></div>

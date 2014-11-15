@@ -1,0 +1,48 @@
+.navbar-blue {
+  background-color: #25AAE1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+  border-bottom: none ;
+}
+
+.navbar-blue .navbar-brand {
+  padding: 0;
+  font-family: Pacifico;
+  font-size: 28px;
+  margin-top: -3px;
+  margin-left: -5px !important;
+  color: #FFFFFF;
+}
+
+/*.navbar-blue button,
+.navbar-blue button:active,
+.navbar-blue button:focus {
+  margin-top: 7px !important;
+  border-radius: 1px;
+  border-color: #FFFFFF;
+  color: rgb(32, 21, 71);
+  font-weight: bold;
+}
+*/
+.container-fluid > .navbar-header {
+  margin-left: 0;
+}
+
+.navbar-blue .btn-lovely {
+  margin-top: 7px !important;
+  border-radius: 1px;
+  border-color: rgb(32, 21, 71);
+  color: rgb(32, 21, 71);
+  font-weight: bold;
+  background-color: white;
+}
+
+.navbar-blue .btn-lovely:hover {
+  margin-top: 7px !important;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color: rgb(32, 21, 71);
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
