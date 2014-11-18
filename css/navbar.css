@@ -13,16 +13,6 @@
   color: #FFFFFF;
 }
 
-/*.navbar-blue button,
-.navbar-blue button:active,
-.navbar-blue button:focus {
-  margin-top: 7px !important;
-  border-radius: 1px;
-  border-color: #FFFFFF;
-  color: rgb(32, 21, 71);
-  font-weight: bold;
-}
-*/
 .container-fluid > .navbar-header {
   margin-left: 0;
 }

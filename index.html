@@ -3,23 +3,104 @@ layout: default
 title: Lovely hood - Rentabilisez vos objets dormants
 ---
 
-<div class="wrapper">
-  <div class="col-xs-6 col-xs-offset-3">
-    <div class="lead">
-      <a href="index.html">
-        <h1>lovely hood</h1>
-      </a>
-      <div class="vertical-spacer disappear"></div>
-      <h2>Rentabilisez vos objets dormants</h2>
-      <br>
-      <button class="btn btn-lovely" data-toggle="modal" data-target="#explain">
-        Comment ça marche
-      </button>
+<div class="background grey">
+  <div id="wrapper">
+    <div class="container total-width">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <div class="lead">
+            <a href="index.html">
+              <h1>lovely hood</h1>
+            </a>
+            <div class="vertical-spacer disappear"></div>
+            <h2>Rentabilisez vos objets dormants</h2>
+            <br>
+            <button class="btn btn-lovely" data-toggle="modal" data-target="#modal-explain">
+              Comment ça marche
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
 
-  <div class="navbar-fixed-bottom disappear-mobile footer">
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-sm-1 col-md-4 text-center">
+        <img class="img-circle img-little" src="https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY.png" alt="">
+        <p></p>
+      </div>
+      <div class="col-sm-1 col-md-4 text-center">
+        <img class="img-circle img-little" src="https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY.png" alt="">
+        <p></p>
+      </div>
+      <div class="col-sm-1 col-md-4 text-center">
+        <img class="img-circle img-little" src="https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY.png" alt="">
+        <p></p>
+      </div>
+    </div>
+  </div> -->
+
+  <div>
+    <div class="container total-width">
+      <div class="row white">
+        <div class="col-md-4 col-sm-12 text-center explain font-size-20">
+          <img style="height: 100px" src="images/objets.png" alt="perceuse robot mixeur tente alveole hexagone bleu">
+          <br>
+          <br>
+          <p><b>1.</b> J'inventorie mes objets dormants</p>
+        </div>
+        <div class="col-md-4  col-sm-12 text-center explain font-size-20" id="dispo">
+          <img style="height: 100px" src="images/prix-dispo.png" alt="disponibilite euro prix calendrier alveole hexagone bleu">
+          <br>
+          <br>
+          <p><b>2.</b> Je décide du prix et de la disponibilité</p>
+        </div>
+        <div class="col-md-4  col-sm-12 text-center explain font-size-20">
+          <img style="height: 100px" src="images/contact.png" alt="telephone envelope message contact handshake alveole hexagone bleu">
+          <br>
+          <br>
+          <p><b>3.</b> Je suis contacté par mes voisins</p>
+        </div>
+      </div>
+      <div class="row blue logo text-center">
+        <a class="logo" href="index.html">
+          <img src="images/logo-white.png" style="height: 40px;" class="brand-logo" alt="logo lovely hood abeille">
+          &nbsp;lovely hood
+        </a>
+      </div>
+      <div class="row white" id="description">
+        <div class="col-md-4  col-sm-12 text-center explain">
+          <img class="margin-top-10" style="height: 100px" src="images/securise.png" alt="verification securise proximite alveole hexagone bleu">
+          <br>
+          <br>
+          <p>Lovely hood est une plateforme privée et entièrement sécurisée, qui vous met en relation avec les utilisateurs habitant <b>à moins de 10 minutes à pied de chez vous.</b></p>
+        </div>
+        <div class="col-md-4  col-sm-12 text-center explain">
+          <img class="margin-top-10" style="height: 100px" src="images/consommation-collaborative.png" alt="consommation collaborative perceuse people reseau alveole hexagone bleu">
+          <br>
+          <br>
+          <p>Fondée sur le principe de la <b>consommation collaborative</b>, elle vous permet de louer à la journée ou à la semaine, les objets que vous n'utilisez qu'occasionnellement.</p>
+        </div>
+        <div class="col-md-4  col-sm-12 text-center explain">
+          <img class="margin-top-10" style="height: 100px" src="images/paiement-services.png" alt="argent discuter baby-sitting services  alveole hexagone bleu">
+          <br>
+          <br>
+          <p>Le paiement est sécurisé et s'effectue en ligne.
+          Au-delà de la <b>location d'objets</b>, le site vous permet de <b>vendre des biens et des services</b>, ou simplement de <b>découvrir vos voisins</b>.</p>
+        </div>
+      </div>
+      <div class="row blue padding-btn text-center">
+        <button class="btn btn-lovely" data-toggle="modal" data-target="#register-form">
+          Je m'inscris
+        </button>
+      </div>
+    </div>
+  </div><!-- modal fade #explain -->
+
+
+  <div class="disappear-mobile footer">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 text-center">
@@ -103,100 +184,103 @@ title: Lovely hood - Rentabilisez vos objets dormants
       </div>
     </div>
   </div>
+</div>
 
-
-  <!-- MODALS -->
-  <div class="modal fade box-shadow" id="explain">
-    <div class="container" id="total-width">
-      <div class="row white">
+<!-- MODALS -->
+<!-- modal fade explain -->
+<!-- <div class="modal fade box-shadow explain" id="modal-explain">
+  <div class="container total-width">
+    <div class="row white">
+      <div class="col-xs-12">
         <a href="index.html" style="padding: 25px 15px 10px 0;" data-dismiss="modal" class="modal-close">x</a>
       </div>
-      <div class="row white">
-        <div class="col-md-4 col-sm-12 text-center explain">
-          <img style="height: 100px" src="images/objets.png" alt="perceuse robot mixeur tente alveole hexagone bleu">
-          <br>
-          <br>
-          <p><b>1.</b> J'inventorie mes objets dormants</p>
-        </div>
-        <div class="col-md-4  col-sm-12 text-center explain" id="dispo">
-          <img style="height: 100px" src="images/prix-dispo.png" alt="disponibilite euro prix calendrier alveole hexagone bleu">
-          <br>
-          <br>
-          <p><b>2.</b> Je décide du prix et de la disponibilité</p>
-        </div>
-        <div class="col-md-4  col-sm-12 text-center explain">
-          <img style="height: 100px" src="images/contact.png" alt="telephone envelope message contact handshake alveole hexagone bleu">
-          <br>
-          <br>
-          <p><b>3.</b> Je suis contacté par mes voisins</p>
-        </div>
+    </div>
+    <div class="row white">
+      <div class="col-md-4 col-sm-12 text-center explain">
+        <img style="height: 100px" src="images/objets.png" alt="perceuse robot mixeur tente alveole hexagone bleu">
+        <br>
+        <br>
+        <p><b>1.</b> J'inventorie mes objets dormants</p>
       </div>
-      <div class="row blue logo">
-        <a class="logo" href="index.html">
-          <img src="images/logo-white.png" style="height: 40px;" class="brand-logo" alt="logo lovely hood abeille">
-          &nbsp;lovely hood
-        </a>
+      <div class="col-md-4  col-sm-12 text-center explain" id="dispo">
+        <img style="height: 100px" src="images/prix-dispo.png" alt="disponibilite euro prix calendrier alveole hexagone bleu">
+        <br>
+        <br>
+        <p><b>2.</b> Je décide du prix et de la disponibilité</p>
       </div>
-      <div class="row white" id="description">
-        <div class="col-md-4  col-sm-12 text-center explain">
-          <img style="height: 100px" src="images/securise.png" alt="verification securise proximite alveole hexagone bleu">
-          <br>
-          <br>
-          <p>Lovely hood est une plateforme privée et entièrement sécurisée, qui vous met en relation avec les utilisateurs habitant <b>à moins de 10 minutes à pied de chez vous.</b></p>
-        </div>
-        <div class="col-md-4  col-sm-12 text-center explain">
-          <img style="height: 100px" src="images/consommation-collaborative.png" alt="consommation collaborative perceuse people reseau alveole hexagone bleu">
-          <br>
-          <br>
-          <p>Fondée sur le principe de la <b>consommation collaborative</b>, elle vous permet de louer à la journée ou à la semaine, les objets que vous n'utilisez qu'occasionnellement.</p>
-        </div>
-        <div class="col-md-4  col-sm-12 text-center explain">
-          <img style="height: 100px" src="images/paiement-services.png" alt="argent discuter baby-sitting services  alveole hexagone bleu">
-          <br>
-          <br>
-          <p>Le paiement est sécurisé et s'effectue en ligne.
-          Au-delà de la <b>location d'objets</b>, le site vous permet de <b>vendre des biens et des services</b>, ou simplement de <b>découvrir vos voisins</b>.</p>
-        </div>
-      </div>
-      <div class="row blue padding-btn">
-        <button class="btn btn-lovely" data-toggle="modal" data-target="#register-form">
-          Je m'inscris
-        </button>
+      <div class="col-md-4  col-sm-12 text-center explain">
+        <img style="height: 100px" src="images/contact.png" alt="telephone envelope message contact handshake alveole hexagone bleu">
+        <br>
+        <br>
+        <p><b>3.</b> Je suis contacté par mes voisins</p>
       </div>
     </div>
-  </div><!-- modal fade #explain -->
-
-  <div class="modal fade box-shadow" id="register-form">
-    <div class="vertical-spacer disappear"></div>
-    <div class="vertical-spacer disappear"></div>
-    <div class="vertical-spacer disappear"></div>
-    <div class="vertical-spacer disappear"></div>
-    <div class="modal-dialog slim-fit">
-      <div class="modal-content">
-        <div class="modal-body white">
-          <div class="row white">
-            <a href="index.html" style="padding: 5px 12px 5px 0;" data-dismiss="modal" class="modal-close">x</a>
-          </div>
-          <form role="form">
-            <div class="form-group">
-              <a href="#" class="btn facebook-btn">
-                <i class="fa fa-facebook"></i>&nbsp;Inscription avec facebook
-              </a>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" id="name" placeholder="Nom complet">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control email" placeholder="Email">
-            </div>
-          </form>
-          <p class="text-small-left">En créant un compte, vous acceptez les <a href="#">Conditions générales</a>, la <a href="#">Politique de confidentialité</a> et la <a href="#">Politique de remboursement</a> de Lovely hood.</p>
-
-        </div>
-        <div class="modal-footer blue padding-btn text-center">
-          <button class="btn btn-lovely">Créer un compte</button>
-        </div>
+    <div class="row blue logo text-center">
+      <a class="logo" href="index.html">
+        <img src="images/logo-white.png" style="height: 40px;" class="brand-logo" alt="logo lovely hood abeille">
+        &nbsp;lovely hood
+      </a>
+    </div>
+    <div class="row white" id="description">
+      <div class="col-md-4  col-sm-12 text-center explain">
+        <img style="height: 100px" src="images/securise.png" alt="verification securise proximite alveole hexagone bleu">
+        <br>
+        <br>
+        <p>Lovely hood est une plateforme privée et entièrement sécurisée, qui vous met en relation avec les utilisateurs habitant <b>à moins de 10 minutes à pied de chez vous.</b></p>
       </div>
-    </div><!-- modal-dialog slim-fit -->
-  </div><!-- modal fade #register-form -->
-</div>
+      <div class="col-md-4  col-sm-12 text-center explain">
+        <img style="height: 100px" src="images/consommation-collaborative.png" alt="consommation collaborative perceuse people reseau alveole hexagone bleu">
+        <br>
+        <br>
+        <p>Fondée sur le principe de la <b>consommation collaborative</b>, elle vous permet de louer à la journée ou à la semaine, les objets que vous n'utilisez qu'occasionnellement.</p>
+      </div>
+      <div class="col-md-4  col-sm-12 text-center explain">
+        <img style="height: 100px" src="images/paiement-services.png" alt="argent discuter baby-sitting services  alveole hexagone bleu">
+        <br>
+        <br>
+        <p>Le paiement est sécurisé et s'effectue en ligne.
+        Au-delà de la <b>location d'objets</b>, le site vous permet de <b>vendre des biens et des services</b>, ou simplement de <b>découvrir vos voisins</b>.</p>
+      </div>
+    </div>
+    <div class="row blue padding-btn text-center">
+      <button class="btn btn-lovely" data-toggle="modal" data-target="#register-form">
+        Je m'inscris
+      </button>
+    </div>
+  </div>
+</div> -->
+<!-- modal fade #explain -->
+
+<div class="modal fade box-shadow" id="register-form">
+  <div class="vertical-spacer disappear"></div>
+  <div class="vertical-spacer disappear"></div>
+  <div class="vertical-spacer disappear"></div>
+  <div class="vertical-spacer disappear"></div>
+  <div class="modal-dialog slim-fit">
+    <div class="modal-content">
+      <div class="modal-body white">
+        <div class="row white">
+          <a href="index.html" style="padding: 5px 12px 5px 0;" data-dismiss="modal" class="modal-close">x</a>
+        </div>
+        <form role="form">
+          <div class="form-group">
+            <a href="#" class="btn facebook-btn">
+              <i class="fa fa-facebook"></i>&nbsp;Inscription avec facebook
+            </a>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="Nom complet">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control email" placeholder="Email">
+          </div>
+        </form>
+        <p class="text-small-left">En créant un compte, vous acceptez les <a href="#">Conditions générales</a>, la <a href="#">Politique de confidentialité</a> et la <a href="#">Politique de remboursement</a> de Lovely hood.</p>
+
+      </div>
+      <div class="modal-footer blue padding-btn text-center">
+        <button class="btn btn-lovely">Créer un compte</button>
+      </div>
+    </div>
+  </div><!-- modal-dialog slim-fit -->
+</div><!-- modal fade #register-form -->
