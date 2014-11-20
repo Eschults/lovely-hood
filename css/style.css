@@ -91,8 +91,7 @@ p {
 
 #wrapper {
   background-image: url('../images/background-tighter.png');
-  min-height: 480px;
-  height: 100%;
+  height: 800px;
   background-size: cover;
   padding-top: 5%;
   text-align: center;
@@ -183,13 +182,12 @@ p {
 	background-color: #25AAE1;
 	padding: 15px 0 5px 0;
 	color: white;
-	/*box-shadow: 0 0 5px rgba(0, 0, 0, .4);*/
+	box-shadow: 0 0 5px rgba(0, 0, 0, .4);
 }
 
 .explain {
 	color: #25AAE1;
-	background-color: white;
-	padding: 30px 15px;
+  /*background-color: white;*/
 }
 
 .modal-content {
@@ -385,6 +383,10 @@ p {
   padding-top: 15px;
 }
 
+.padding-top-20 {
+  padding-top: 20px;
+}
+
 .padding-btm-15 {
   padding-bottom: 15px;
 }
@@ -395,6 +397,22 @@ p {
 
 .margin-top-10 {
   margin-top: 10px;
+}
+
+.margin-left-15 {
+  margin-left: 15px;
+}
+
+.margin-right-15 {
+  margin-right: 15px;
+}
+
+#newsletter {
+  border: 1px solid blue;
+}
+
+#newsletter:focus {
+  border: 1px solid red;
 }
 
 .input-group-addon {
